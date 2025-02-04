@@ -84,7 +84,7 @@ def generate_pdf(data):
     
     # Distance and Speed
     pdf.cell(0, 10, f"Abstand: {data['distance']} m", ln=True)
-    pdf.cell(0, 10, f"Geschwindigkeit: {data['speed']} km/h", ln=True)
+    # pdf.cell(0, 10, f"Geschwindigkeit: {data['speed']} km/h", ln=True)
     
     # GPS Coordinates
     pdf.cell(0, 10, f"GPS-Koordinaten: {data['gps']}", ln=True)
